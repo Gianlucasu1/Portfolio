@@ -13,7 +13,7 @@ export const Info = () => {
         <div className="about__box">
             <i className="bx bx-briefcase-alt about__icon"></i>
             <h3 className="about__title">Studies</h3>
-            <span className="about__subtitle">9th semester of Systems Engineering</span>
+            <span className="about__subtitle">4+ years</span>
         </div>
 
         <div className="about__box">

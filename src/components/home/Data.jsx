@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Data = () => {
     return (
-        <div>
+        <div className="home__data">
             <h1 className="home__title">
                 Gianluca  
                 
