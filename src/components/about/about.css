@@ -43,6 +43,10 @@
     padding: 0 4rem 0 0;
     margin-bottom: var(--mb-2-5);
 }
+.container__button-flex{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
 
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
