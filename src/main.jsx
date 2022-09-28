@@ -5,6 +5,10 @@ import {Header} from "../src/components/header/Header"
 import {Home} from "../src/components/home/Home"
 import {About} from "../src/components/about/About"
 import {Skills} from "../src/components/skills/Skills"
+import {Qualifications} from "../src/components/qualifications/Qualifications"
+import { Portfolio } from './components/portfolio/Portfolio'
+import  Portfolio2  from './components/portfolio/Portfolio2'
+import { Contact } from './components/contact/Contact'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -14,6 +18,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Home />
         <About />
         <Skills />
+        <Qualifications />
+        <Contact />     
     </main>
     
   </React.StrictMode>

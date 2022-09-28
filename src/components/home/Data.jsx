@@ -58,9 +58,11 @@ export const Data = () => {
             </h1>
             <h3 className="home__subtitle">Web Developer</h3>
             <p className="home__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic velit aspernatur tempora expedita rem voluptate molestiae, est reprehenderit quasi totam magnam id facere commodi, quo deleniti mollitia ipsa adipisci vero.</p>
+            
+
             <a href="" className="button button--flex">
-              Say Hello
-              <svg
+                Say Hello
+                <svg
                   class="button__icon"
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -78,6 +80,8 @@ export const Data = () => {
                   ></path>
               </svg>
             </a>
+
+            
         </div>
     )
 }

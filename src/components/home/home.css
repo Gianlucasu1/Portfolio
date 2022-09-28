@@ -124,6 +124,8 @@
     color: var(--title-color); 
 }
 
+
+
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
 @media screen and (max-width: 992px) {

@@ -149,7 +149,7 @@ img {
 /*=============== BUTTONS ===============*/
 .button {
   display: inline-block;
-  background-color: var(--title-color);
+  background-color:#5f64c0;
   color: var(--container-color);
   padding: 1.25rem 2rem;
   border-radius: 1rem;
@@ -158,6 +158,11 @@ img {
 
 .button:hover {
   background-color: var(--title-color-dark);
+  color: white;
+}
+
+.a__visited:visited{
+  color:#5f64c0 ;
 }
 
 .button__icon {

@@ -48,6 +48,10 @@
     grid-template-columns: 1fr 2fr 1fr;
 }
 
+.about__button-flex{
+    display: flex;
+    justify-content: center;
+}
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
 @media screen and (max-width: 992px) {

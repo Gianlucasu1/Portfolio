@@ -1,6 +1,6 @@
 import React from 'react'
 import "./about.css"
-import AboutImg from "../../assets/gianluca.jpg"
+import AboutImg from "../../assets/gianluca2.jpg"
 import { Info } from "../about/Info"
 
 export const About = () => {
@@ -16,9 +16,10 @@ export const About = () => {
                     <p className="about__description">
                         Frontend developer, I c reate web pages with responsive design using ReactJs. I have many projects using differents ways to solve problems
                     </p>
-                    <a href="#" className="button button--flex">
-                        Download CV
-                        <svg
+                    <div className="about__button-flex">
+                        <a href="#" className="button button--flex">
+                            Download CV
+                            <svg
                             class="button__icon"
                             xmlns="http://www.w3.org/2000/svg"
                             width="24"
@@ -43,7 +44,8 @@ export const About = () => {
                                 fill="var(--container-color)"
                             ></path>
                         </svg>
-                    </a>
+                        </a>
+                    </div>
                 </div>
             </div>
         </section>
