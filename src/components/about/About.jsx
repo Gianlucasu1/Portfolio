@@ -14,7 +14,7 @@ export const About = () => {
                 <div className="about__data">
                     <Info />
                     <p className="about__description">
-                        Frontend developer, I c reate web pages with responsive design using ReactJs. I have many projects using differents ways to solve problems
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic velit aspernatur tempora expedita rem voluptate molestiae, est reprehenderit quasi totam magnam id facere commodi, quo deleniti mollitia ipsa adipisci vero.
                     </p>
                     <div className="about__button-flex">
                         <a href="#" className="button button--flex">

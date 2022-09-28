@@ -9,6 +9,7 @@ import {Qualifications} from "../src/components/qualifications/Qualifications"
 import { Portfolio } from './components/portfolio/Portfolio'
 import  Portfolio2  from './components/portfolio/Portfolio2'
 import { Contact } from './components/contact/Contact'
+import { Footer } from './components/footer/Footer'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -20,6 +21,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Skills />
         <Qualifications />
         <Contact />     
+        <Footer />
     </main>
     
   </React.StrictMode>
